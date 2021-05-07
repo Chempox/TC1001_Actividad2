@@ -14,7 +14,7 @@ from random import randrange
 from freegames import square, vector
 import random
 
-colors_ = ['blue', 'brown', 'orange','purple']
+colors_ = ['blue', 'green', 'orange','purple']
 food = vector(0, 0)
 snake = [vector(10, 0)]
 aim = vector(0, -10)
