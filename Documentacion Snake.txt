@@ -1,4 +1,5 @@
-Actividad 2:
+Actividad 2: Alan Caspeta - 01424680, Juan Pablo Yañez - 00829598
+
 Para la segunda actividad, se descargo el juego snake, este juego era el clasico objetivo,
 comer y hacer que la serpiente se volviera mas grande, pero el reto era que la comida
 se moviera sin que se saliera del mapa de juego y el segundo reto era que cambiar el color
