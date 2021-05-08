@@ -1,0 +1,20 @@
+Actividad 2: Alan Caspeta - 01424680, Juan Pablo Yañez - 00829598
+
+Para la segunda actividad, se descargo el juego snake, este juego era el clasico objetivo,
+comer y hacer que la serpiente se volviera mas grande, pero el reto era que la comida
+se moviera sin que se saliera del mapa de juego y el segundo reto era que cambiar el color
+de la serpiente. Para hacer que la comida se moviera agregamos dos lineas de codigo
+en la funcion move:
+food.x = randrange(-15, 15) * 10
+food.y = randrange(-15, 15) * 10
+esto hace que la comida se mueva dentro de los paramitros del mapa.
+para cambiar el color de la serpiente y la comida modificamos el codigo dentro de la funcion
+move, dentro del for:
+square(dody.x, body.y, 9, color_seleccionado)
+esto cambia el color de la serpiente, y debajo de esa linea:
+square(food.x, food.y, 9, color_seleccionado2)
+aqui ya cambia el color de la comida.
+en esta dos lineas e color cambia a uno aleatorio de la lista de colores que fue 
+creado en la primaras lineas de codigo:
+color_seleccionado = random.choice(colors_)
+color_seleccionado2 = random.choice(colors_)
